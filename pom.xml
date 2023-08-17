@@ -193,6 +193,15 @@
                         <additionalJOption>-Xdoclint:none</additionalJOption>
                     </configuration>
                 </plugin>
+                <!--plugin>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>3.0.0-M5</version>
+                    <configuration>
+                        <systemPropertyVariables>
+                            <jdk.util.zip.disableZip64ExtraFieldValidation>true</jdk.util.zip.disableZip64ExtraFieldValidation>
+                        </systemPropertyVariables>
+                    </configuration>
+                </plugin-->
             </plugins>
         </pluginManagement>
     </build>
