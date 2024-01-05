@@ -193,15 +193,6 @@
                         <additionalJOption>-Xdoclint:none</additionalJOption>
                     </configuration>
                 </plugin>
-                <!--plugin>
-                    <artifactId>maven-surefire-plugin</artifactId>
-                    <version>3.0.0-M5</version>
-                    <configuration>
-                        <systemPropertyVariables>
-                            <jdk.util.zip.disableZip64ExtraFieldValidation>true</jdk.util.zip.disableZip64ExtraFieldValidation>
-                        </systemPropertyVariables>
-                    </configuration>
-                </plugin-->
             </plugins>
         </pluginManagement>
     </build>
@@ -1286,10 +1277,10 @@
         <carbon.analytics.common.version>5.3.5</carbon.analytics.common.version>
 
         <!-- APIM Portals Component Version -->
-        <carbon.apimgt.ui.version>9.0.453</carbon.apimgt.ui.version>
+        <carbon.apimgt.ui.version>9.0.486</carbon.apimgt.ui.version>
 
         <!-- APIM Component Version -->
-        <carbon.apimgt.version>9.28.160</carbon.apimgt.version>
+        <carbon.apimgt.version>9.28.207</carbon.apimgt.version>
 
         <carbon.apimgt.imp.pkg.version>[9.0.0, 10.0.0)</carbon.apimgt.imp.pkg.version>
 
@@ -1356,7 +1347,7 @@
         <opencsv.version>1.8</opencsv.version>
         <poi.version>3.0-FINAL</poi.version>
         <woden.version>1.0.0.M8-wso2v1</woden.version>
-        <synapse.version>4.0.0-wso2v20</synapse.version>
+        <synapse.version>4.0.0-wso2v50</synapse.version>
         <passthru.transport.patch.version>1.0.2</passthru.transport.patch.version>
         <axis2.wso2.version>1.6.1-wso2v85</axis2.wso2.version>
         <axiom.wso2.version>1.2.11-wso2v25</axiom.wso2.version>
@@ -1480,7 +1471,7 @@
         <wsdl4j.version>1.6.3.wso2v3</wsdl4j.version>
         <wso2is.km.version>1.6.8</wso2is.km.version>
         <okta.keymanager.feature.version>3.2.0</okta.keymanager.feature.version>
-        <azure.keymanager.feature.version>1.0.5</azure.keymanager.feature.version>
+        <azure.keymanager.feature.version>1.0.6</azure.keymanager.feature.version>
         <keycloak.keymanager.feature.version>2.1.0</keycloak.keymanager.feature.version>
         <auth0.keymanager.feature.version>1.0.4</auth0.keymanager.feature.version>
         <pingfederate.keymanager.feature.version>1.0.6</pingfederate.keymanager.feature.version>

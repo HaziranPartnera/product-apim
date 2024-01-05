@@ -5195,6 +5195,7 @@ paths:
           - AM_APPLICATION_DELETION
           - AM_API_STATE
           - AM_API_PRODUCT_STATE
+          - AM_REVISION_DEPLOYMENT
           type: string
         style: form
       responses:
@@ -7961,6 +7962,18 @@ components:
       - type
       title: Throttle Limit
       type: object
+    BurstLimit:
+      properties:
+        rateLimitCount:
+          description: Burst control request count
+          example: 10
+          type: integer
+        rateLimitTimeUnit:
+          description: Burst control time unit
+          example: min
+          type: string
+      title: Burst Limit object
+      type: object
     MonetizationInfo:
       properties:
         monetizationPlan:
@@ -9442,6 +9455,7 @@ components:
           - SUBSCRIPTION_DELETION
           - SUBSCRIPTION_UPDATE
           - API_PRODUCT_STATE
+          - REVISION_DEPLOYMENT
           example: APPLICATION_CREATION
           type: string
         workflowStatus:
@@ -9626,6 +9640,8 @@ components:
       properties:
         defaultLimit:
           $ref: '#/components/schemas/ThrottleLimit'
+        burstLimit:
+          $ref: '#/components/schemas/BurstLimit'
       required:
       - defaultLimit
     SubscriptionThrottlePolicy_allOf:
