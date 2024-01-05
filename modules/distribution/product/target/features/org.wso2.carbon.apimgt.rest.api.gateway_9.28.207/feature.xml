@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.apimgt.rest.api.gateway" label="WSO2 Carbon - API Gateway Rest API Feature" provider-name="%providerName" version="9.28.207">
+  <description>This feature contains required bundles for API Manager Rest API for API Gateway functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="javax.validation.api" unpack="false" version="2.0.1.Final"/>
+  <plugin id="org.wso2.carbon.apimgt.rest.api.util" unpack="false" version="9.28.207"/>
+  <plugin id="org.wso2.carbon.identity.entitlement.stub" unpack="false" version="5.24.8"/>
+  <plugin id="org.wso2.carbon.apimgt.rest.api.common" unpack="false" version="9.28.207"/>
+</feature>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.apimgt.rest.api.publisher" label="WSO2 Carbon - API Publisher Rest API Feature" provider-name="%providerName" version="9.28.207">
+  <description>This feature contains required bundles for API Manager Rest API for API publisher functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="swagger-inflector-oas3" unpack="false" version="2.0.5.wso2v2"/>
+  <plugin id="com.fasterxml.jackson.core.jackson-annotations" unpack="false" version="2.14.1"/>
+  <plugin id="org.apache.commons.commons-validator" unpack="false" version="1.7.0"/>
+  <plugin id="org.wso2.carbon.identity.user.registration.stub" unpack="false" version="5.24.8"/>
+  <plugin id="org.wso2.carbon.apimgt.rest.api.util" unpack="false" version="9.28.207"/>
+  <plugin id="software.amazon.ion.java" unpack="false" version="1.0.2"/>
+  <plugin id="com.fasterxml.jackson.core.jackson-core" unpack="false" version="2.14.1"/>
+  <plugin id="swagger-inflector" unpack="false" version="1.0.16.wso2v1"/>
+  <plugin id="commons-io" unpack="false" version="2.4.0.wso2v1"/>
+  <plugin id="com.fasterxml.jackson.datatype.jackson-datatype-guava" unpack="false" version="2.14.1"/>
+  <plugin id="handy-uri-templates" unpack="false" version="2.1.6.wso2v2"/>
+  <plugin id="io.swagger.annotations" unpack="false" version="1.6.9"/>
+  <plugin id="ehcache" unpack="false" version="1.5.0.wso2v3"/>
+  <plugin id="com.github.ben-manes.caffeine" unpack="false" version="2.8.1"/>
+  <plugin id="org.apache.commons.commons-codec" unpack="false" version="1.14.0"/>
+  <plugin id="com.fasterxml.jackson.dataformat.jackson-dataformat-yaml" unpack="false" version="2.14.1"/>
+  <plugin id="json" unpack="false" version="3.0.0.wso2v1"/>
+  <plugin id="io.swagger.core" unpack="false" version="1.6.9"/>
+  <plugin id="okhttp" unpack="false" version="4.11.0.wso2v1"/>
+  <plugin id="org.wso2.carbon.apimgt.rest.api.common" unpack="false" version="9.28.207"/>
+  <plugin id="graphQL" unpack="false" version="19.6.0.wso2v1"/>
+  <plugin id="awslambda" unpack="false" version="1.11.1034.wso2v2"/>
+  <plugin id="com.fasterxml.jackson.datatype.jackson-datatype-jsr310" unpack="false" version="2.14.1"/>
+  <plugin id="org.wso2.carbon.apimgt.impl" unpack="false" version="9.28.207"/>
+  <plugin id="com.fasterxml.jackson.core.jackson-databind" unpack="false" version="2.14.1"/>
+  <plugin id="org.wso2.carbon.apimgt.output.adapter.http" unpack="false" version="9.28.207"/>
+  <plugin id="org.wso2.carbon.identity.entitlement.stub" unpack="false" version="5.24.8"/>
+  <plugin id="org.wso2.carbon.apimgt.api" unpack="false" version="9.28.207"/>
+  <plugin id="org.wso2.carbon.apimgt.solace" unpack="false" version="9.28.207"/>
+  <plugin id="org.wso2.carbon.apimgt.rest.api.publisher.v1.common" unpack="false" version="9.28.207"/>
+  <plugin id="woden" unpack="false" version="1.0.0.M9-wso2v1"/>
+  <plugin id="okio" unpack="false" version="3.5.0.wso2v1"/>
+  <plugin id="com.fasterxml.jackson.dataformat.jackson-dataformat-cbor" unpack="false" version="2.14.1"/>
+  <plugin id="com.googlecode.json-simple" unpack="false" version="1.1.1"/>
+  <plugin id="com.google.gson" unpack="false" version="2.9.1"/>
+  <plugin id="io.swagger.models" unpack="false" version="1.6.9"/>
+  <plugin id="org.wso2.carbon.apimgt.common.gateway" unpack="false" version="9.28.207"/>
+  <plugin id="wsdl4j.wso2" unpack="false" version="1.6.3.wso2v3"/>
+</feature>
